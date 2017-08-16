@@ -1,5 +1,5 @@
 # ad-production-lines
-Contains personal necessary ad snippets.
+Contains personal necessary code snippets for ad productions.
 
 ### GSAP
 #### AnimPanel
