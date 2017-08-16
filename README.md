@@ -2,7 +2,7 @@
 Contains personal necessary code snippets to produce an html5 ad.
 
 ### GSAP
-First, you should include the gsap library into your html doc specified by your adserver.
+Start with an include of the gsap library into your html file, specified by your adserver.
 ```bash
 <script type="text/javascript" src="yourGsapCDN"></script>
 ```
