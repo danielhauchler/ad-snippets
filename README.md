@@ -1,4 +1,4 @@
-# bannering-notes
+# ad-production
 This Repository contains necessary ad snippets.
 
 ### GSAP
