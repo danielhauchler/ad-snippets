@@ -7,7 +7,7 @@ Contains personal necessary code snippets to produce an html5 ad.
   function startAnimation() {
   
     // Assets
-    var $ad = $('#ad'),
+    var $ad 		= $('#ad'),
     	$background	= $('#background'),
         
         tl = new TimelineMax();
