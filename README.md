@@ -1,5 +1,5 @@
 # ad-production-notes
-This Repository contains personal necessary ad snippets.
+Contains personal necessary ad snippets.
 
 ### GSAP
 #### AnimPanel
