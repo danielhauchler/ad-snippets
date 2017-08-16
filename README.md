@@ -1,5 +1,5 @@
 # html5-ad-lines
-Contains personal necessary code snippets for ad productions.
+Contains personal necessary code snippets to produce an html5 ad.
 
 ### GSAP
 #### variables & timeline
