@@ -23,8 +23,8 @@ Contains personal necessary code snippets for ad productions.
 #### loops
 ```bash
     ...
-    
     .from($rectangle, .6, { width:100, height: 100, ease: Power4.easeOut }, '+=.6')
+    
     // Callabck function
     .addCallback( restart, "+=.2");
     
