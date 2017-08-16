@@ -17,6 +17,7 @@ Create the AnimPanel, passing it your Timeline instance
 
 ### Sizmek
 #### Shared Libraries
+include it in your HTML:
 ```bash
 <script src="https://secure-ds.serving-sys.com/BurstingcachedScripts/libraries/jquery/1_11_3/jquery.min.js"></script>
 <script src="https://secure-ds.serving-sys.com/BurstingcachedScripts/libraries/greensock/1_19_0/TweenMax.min.js"></script>
