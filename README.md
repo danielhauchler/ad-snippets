@@ -3,9 +3,11 @@ This Repository contains necessary ad snippets.
 
 ### GSAP
 #### AnimPanel
+include it in your HTML:
 ```bash
 <script type="text/javascript" src="http://lab.grey.de/libs/anim_panel/anim_panel.js"></script>
 ```
+Create the AnimPanel, passing it your Timeline instance
 ```bash
 <script>
   new AnimPanel(tl);
