@@ -5,6 +5,8 @@ This Repository contains necessary ad snippets.
 #### Debugging
 ```bash
 <script type="text/javascript" src="http://lab.grey.de/libs/anim_panel/anim_panel.js"></script>
+```
+```bash
 <script>
   new AnimPanel(tl);
 </script>
