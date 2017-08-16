@@ -2,7 +2,7 @@
 This Repository contains necessary ad snippets.
 
 ### GSAP
-#### Debugging
+#### AnimPanel
 ```bash
 <script type="text/javascript" src="http://lab.grey.de/libs/anim_panel/anim_panel.js"></script>
 ```
