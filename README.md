@@ -8,7 +8,7 @@ Contains personal necessary code snippets for ad productions.
   
     // Assets
     var $ad = $('#ad'),
-        $background	= $('#background'),
+    	$background	= $('#background'),
         
         tl = new TimelineMax();
         
@@ -22,32 +22,29 @@ Contains personal necessary code snippets for ad productions.
 
 #### loops
 ```bash
-    	...
+    ...
     
-    	.from($rectangle, .6, { width:100, height: 100, ease: Power4.easeOut }, '+=.6')
-
-	// Callabck function
-	.addCallback( restart, "+=.2");
-
-	// Restart the ad according to the desired loops
-	function done() {
-		tl.restart();
-	}
+    .from($rectangle, .6, { width:100, height: 100, ease: Power4.easeOut }, '+=.6')
+    // Callabck function
+    .addCallback( restart, "+=.2");
+    
+    // Restart the ad according to the desired loops
+    function done() {
+    	tl.restart();
+    }
 	
-	// Loop Counter
-	var i = 0
+    // Loop Counter
+    var i = 0
 
-	// Loop function with Counter
-	function restart() {
-		if (i < 1) {
-			i++;
-			// Last Frame to dismantle the stage
-			TweenMax.to(ad, 1.3, {opacity:0, ease: Power3.easeInOut, onComplete:done},13.3);
-		
-		} else {
-			tl.stop('end')
-		}
-	}
+    // Loop function with Counter
+    function restart() {
+    	if (i < 1) {
+    	    i++;
+    	    TweenMax.to(ad, 1.3, {opacity:0, ease: Power3.easeInOut, onComplete:done},13.3);
+    	} else {
+	    tl.stop('end')
+    	}
+    }
 ```
 
 #### AnimPanel
