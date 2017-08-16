@@ -3,6 +3,10 @@ Contains personal necessary code snippets to produce an html5 ad.
 
 ### GSAP
 #### variables & timeline
+First, you should include the gsap library specified by your adserver.
+```bash
+<script type="text/javascript" src="yourGsapCDN"></script>
+```
 ```bash
   function startAnimation() {
   
