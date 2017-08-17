@@ -50,14 +50,14 @@ Include the gsap library into your html file, specified by your adserver.
 
 #### timeline duration
 ```bash
-    //count animation duration of a timeline...
+    //count animation duration
     var currentDuration = tl2.duration();
     console.log(currentDuration);
 ```
 
 #### merge timelines
 ```bash
-    //Merge timelines to master timeline...
+    //Merge timelines to master timeline
     masterTimeline.add([tl1, tl2]);
 ```
 
