@@ -41,7 +41,7 @@ Include the gsap library into your html file, specified by your adserver.
     function restart() {
     	if (i < 1) {
     	    i++;
-    	    TweenMax.to(ad, 1.3, {opacity:0, ease: Power3.easeInOut, onComplete:done},13.3);
+    	    TweenMax.to($ad, 1.3, {opacity:0, ease: Power3.easeInOut, onComplete:done},13.3);
     	} else {
 	    tl.stop('end')
     	}
