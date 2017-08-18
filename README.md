@@ -63,6 +63,10 @@ Include the gsap library into your html file, specified by your adserver.
 		   
     //Merge timelines to master timeline
     masterTimeline.add([tl1, tl2]);
+    
+    window.onload = function(){
+        masterTimeline.play();
+    }
 ```
 
 ### Tools
