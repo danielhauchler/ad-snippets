@@ -75,11 +75,17 @@ Create the AnimPanel, passing it your Timeline instance
 
 ```
 
-### Sizmek 
-#### Shared Libraries
+### Shared Libraries
+#### Sizmek 
 ```bash
 <script src="https://secure-ds.serving-sys.com/BurstingcachedScripts/libraries/jquery/1_11_3/jquery.min.js"></script>
 <script src="https://secure-ds.serving-sys.com/BurstingcachedScripts/libraries/greensock/1_19_0/TweenMax.min.js"></script>
+```
+
+#### Google
+```bash
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.19.1_92cf05aba6ca4ea5cbc62b5a7cb924e3_min.js"></script>```
 ```
 
 #### Necessary Scripts
