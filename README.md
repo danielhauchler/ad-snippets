@@ -57,6 +57,10 @@ Include the gsap library into your html file, specified by your adserver.
 
 #### merge timelines
 ```bash
+    var masterTimeline = new TimelineMax({paused:true}),
+               	   tl1 = new TimelineMax(),
+                   tl2 = new TimelineMax();
+		   
     //Merge timelines to master timeline
     masterTimeline.add([tl1, tl2]);
 ```
