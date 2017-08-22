@@ -8,7 +8,7 @@ Include the gsap library into your html file, specified by your adserver.
 ```
 #### variables & timeline
 ```bash
-  function startAnimation() {
+  function startAnim() {
   
     // Assets
     var $ad 		= $('#ad'),
@@ -21,7 +21,7 @@ Include the gsap library into your html file, specified by your adserver.
     .to($ad, .6, {opacity:1})
     
   }
-  startAnimation()
+  startAnim()
 ```
 
 #### loops
