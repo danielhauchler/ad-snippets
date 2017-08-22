@@ -48,7 +48,7 @@ Include the gsap library into your html file, specified by your adserver.
     }
 ```
 
-#### hover event
+#### hover events
 ```bash
     function handleHover() {
 	TweenMax.to(... {...});
