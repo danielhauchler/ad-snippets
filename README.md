@@ -61,13 +61,6 @@ Include the gsap library into your html file, specified by your adserver.
     $ad.addEventListener("mouseout", handleOut);
 ```
 
-#### timeline duration
-```bash
-    //count animation duration
-    var currentDuration = tl2.duration();
-    console.log(currentDuration);
-```
-
 #### merge timelines
 ```bash
     var masterTimeline = new TimelineMax({paused:true}),
@@ -94,6 +87,13 @@ Create the AnimPanel, passing it your Timeline instance
   new AnimPanel(tl);
 </script>
 
+```
+
+#### timeline duration
+```bash
+    //count animation duration
+    var currentDuration = tl2.duration();
+    console.log(currentDuration);
 ```
 
 ### Sizmek 
