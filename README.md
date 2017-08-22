@@ -48,6 +48,19 @@ Include the gsap library into your html file, specified by your adserver.
     }
 ```
 
+#### hover event
+```bash
+    function handleHover() {
+	TweenMax.to(... {...});
+    }
+    function handleOut() {
+        TweenMax.to(... {...});
+    }
+
+    $ad.addEventListener("mouseover", handleHover);
+    $ad.addEventListener("mouseout", handleOut);
+```
+
 #### timeline duration
 ```bash
     //count animation duration
