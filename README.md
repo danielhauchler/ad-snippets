@@ -4,7 +4,7 @@ Contains personal necessary code snippets to produce an html5 ad.
 ### gsap
 Include the gsap library into your html file, specified by your adserver.
 ```bash
-<script type="text/javascript" src="http://sharedlibraries.danielhauchler.de/anim_panel.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
 ```
 #### variables & timeline
 ```bash
