@@ -50,6 +50,15 @@ Include the gsap library into your html file, specified by your adserver.
 
 #### hover events
 ```bash
+    function youtFunction() {
+  	tl.play(3)
+    }
+
+    TweenMax.from(element, 14, {opacity:0, onComplete:youtFunction});
+```
+
+#### hover events
+```bash
     function handleHover() {
 	TweenMax.to(... {...});
     }
