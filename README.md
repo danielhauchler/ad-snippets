@@ -48,7 +48,7 @@ Include the gsap library into your html file, specified by your adserver.
     }
 ```
 
-#### hover events
+#### onComplete function
 ```bash
     function youtFunction() {
   	tl.play(3)
