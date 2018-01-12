@@ -105,7 +105,8 @@ Create the AnimPanel, passing it your Timeline instance
     console.log(currentDuration);
 ```
 
-### clicktag catcher
+### Clicktags
+#### catcher utility
 ```bash
     if(this.getUriParams.clicktag) window.clicktag = this.getUriParams.clicktag;
     if(this.getUriParams.clickTag) window.clicktag = this.getUriParams.clickTag;
