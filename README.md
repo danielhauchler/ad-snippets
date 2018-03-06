@@ -18,9 +18,7 @@ Contains personal necessary code snippets to produce an html5 ad.
     <div id="logo"></div>
   </div>
   <script type="text/javascript">
-	
-	// Place your animation here.
-	
+  	// Place your animation here.
   </script>
 </body>
 </html>
