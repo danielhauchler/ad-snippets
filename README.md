@@ -1,12 +1,75 @@
 # html5-ad-components
 Contains personal necessary code snippets to produce an html5 ad.
 
+#### HTML
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ad">
+    <div id="hl"></div>
+    <div id="sl"></div>
+    <div id="logo"></div>
+  </div>
+  <script type="text/javascript">
+	
+	// Place your animation here.
+	
+  </script>
+</body>
+</html>
+```
+
+#### CSS
+```bash
+#ad {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 250px;
+  overflow:hidden;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.el {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+#logo {
+  z-index: 1;
+  background-image: url('images/logo.png');
+}
+#hl {
+  z-index: 2;
+  background-image: url('images/hl.png');
+}
+#sl {
+  z-index: 3;
+  background-image: url('images/sl.png');
+}
+```
+
 ### GSAP
 Include the gsap library into your html file, specified by your adserver.
 ```bash
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
 ```
-#### variables & timeline
+#### Timelines & Animations
 ```bash
   function startAnim() {
   
