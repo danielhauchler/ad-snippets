@@ -26,6 +26,14 @@ Contains personal necessary code snippets to produce an html5 ad.
 
 #### CSS
 ```bash
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
 #ad {
   position:absolute;
   top: 0;
